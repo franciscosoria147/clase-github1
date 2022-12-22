@@ -1,4 +1,15 @@
 *{
-    color: gold;
     font-size: 50px;
+}
+.container {
+    color: gold;
+    animation: cambiaColor 2s infinite alternate;
+}
+@keyframes cambiaColor {
+    from {
+        color: gold;
+    }
+    to {
+        color: black;
+    }
 }
